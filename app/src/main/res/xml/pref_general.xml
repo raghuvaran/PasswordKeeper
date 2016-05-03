@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Synchronization settings">
+        <SwitchPreference
+        android:defaultValue="false"
+        android:key="syncOnLogin"
+        android:summary="Sync on every successful login"
+        android:title="Sync on Login" />
+
+        <SwitchPreference
+        android:defaultValue="true"
+        android:key="syncOnAction"
+        android:summary="Auto sync when a write action is performed"
+        android:title="Sync on Action" />
+
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Sort">
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_list_order"
+        android:entryValues="@array/pref_list_order_values"
+        android:key="sortListView"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Sort list" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

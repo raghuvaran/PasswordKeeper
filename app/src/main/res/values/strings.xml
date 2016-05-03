@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">PasswordKeeper</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Your Records</string>
+    <string name="title_activity_edit_entry">Edit Entry</string>
+    <string name="title_activity_add_entry">Add Entry</string>
+    <string name="title_activity_about_me">About Me</string>
+    <string name="about_app">Everyone that uses the web today faces some version of the password problem. They are also constantly annoyed by having to type out long strings of meaningless numbers, dates, and codes to conduct an act that is as simple as a swipe in the physical world. \n\n PasswordKeeper is a one stop solution ;)\n \nYou can add /update /modify the entries that you create. As this is backed by SQLite, it is simply robust. All you need to do is, to <b>LONG PRESS</b> on entries to modify them. Also, you can copy username and password to clipboard with a click. \n\n <b>New:</b> \n\n>> Two way synchronization\n\n>> Web portal with authenticaion feature to access your content  \n\n>> CRUD operations on Web portal  \n\n>> Synchronize automatically after any write action \n\n>> Sort by Date, Name \n\n>> Synchronize after Successful login \n\n>> I don’t want you to type username every time (auto-populates last used username on login screen)\n\n</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="title_activity_log">Log</string>
+    <string name="title_activity_view_log">View Log</string>
+
+    <string name="php_getAllEntries">https://people.cs.clemson.edu/~rchowda/Projects/PasswordK_php/db_getAllEntries.php</string>
+    <string name="php_updateDownSyncStat">https://people.cs.clemson.edu/~rchowda/Projects/PasswordK_php/db_updateSyncStatus.php</string>
+    <string name="php_updateExtDB">https://people.cs.clemson.edu/~rchowda/Projects/PasswordK_php/db_updateDB.php</string>
+    <string name="php_syncUser">https://people.cs.clemson.edu/~rchowda/Projects/PasswordK_php/db_syncUser.php</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string-array name="pref_list_order">
+        <item>Date created (Ascending)</item>
+        <item>Date created (Descending)</item>
+        <item>Alphabetical (Ascending)</item>
+        <item>Alphabetical (Descending)</item>
+
+    </string-array>
+    <string-array name="pref_list_order_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
