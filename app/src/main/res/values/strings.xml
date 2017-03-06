@@ -10,10 +10,10 @@
     <string name="title_activity_log">Log</string>
     <string name="title_activity_view_log">View Log</string>
 
-    <string name="php_getAllEntries">https://people.cs.clemson.edu/~rchowda/Projects/PasswordK_php/db_getAllEntries.php</string>
-    <string name="php_updateDownSyncStat">https://people.cs.clemson.edu/~rchowda/Projects/PasswordK_php/db_updateSyncStatus.php</string>
-    <string name="php_updateExtDB">https://people.cs.clemson.edu/~rchowda/Projects/PasswordK_php/db_updateDB.php</string>
-    <string name="php_syncUser">https://people.cs.clemson.edu/~rchowda/Projects/PasswordK_php/db_syncUser.php</string>
+    <string name="php_getAllEntries">http://rchowda.people.clemson.edu/passwordKeeper/db_getAllEntries.php</string>
+    <string name="php_updateDownSyncStat">http://rchowda.people.clemson.edu/passwordKeeper/db_updateSyncStatus.php</string>
+    <string name="php_updateExtDB">http://rchowda.people.clemson.edu/passwordKeeper/db_updateDB.php</string>
+    <string name="php_syncUser">http://rchowda.people.clemson.edu/passwordKeeper/db_syncUser.php</string>
     <string name="title_activity_settings">Settings</string>
 
     <!-- Strings related to Settings -->
